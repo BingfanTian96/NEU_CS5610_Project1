@@ -50,6 +50,7 @@
     text-align: left;    
     color: white;
     justify-content: space-between;
+    width: 100%;
 }
 
 .p2 {
@@ -59,6 +60,7 @@
     text-align: left;    
     color: white;
     justify-content: space-between;
+    width: 100%;
 }
 
 .p3 {
@@ -68,6 +70,7 @@
     text-align: left;    
     color: white;
     justify-content: space-between;
+    width: 100%;
 }
 
 .p4 {
@@ -77,6 +80,7 @@
     text-align: left;    
     color: white;
     justify-content: space-between;
+    width: 100%;
 }
 
 .github_link {
