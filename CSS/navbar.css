@@ -39,11 +39,12 @@ ul a {
 
 ul a:hover {
   background-color: dimgray;
+  font-size: 1.8rem;
 }
 
 .logo {
   font-size: 2.5rem;
-  margin-left: 10%;
+  margin-left: 5%;
 }
 
 .colorchange {
@@ -67,6 +68,9 @@ ul a:hover {
   ul a {
     font-size: 0.8rem;
   }
+  ul a:hover {
+    font-size: 1.2rem;
+  }
   .logo {
     font-size: 1.5rem;
     margin-left: 0;
@@ -76,11 +80,6 @@ ul a:hover {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    /* padding: 15px 10%;
-    background-color: #0f0c27;
-    color: white;
-    border-bottom: solid 0.5px grey;
-    position: fixed; */
     flex-direction: column;
   }
   .navbar {
