@@ -3,7 +3,6 @@
   padding: 0px;
   font-family: 'Courier New', Courier, monospace;
   box-sizing: border-box;
-  /* background-color: #0f0c27; */
 }
 
 /* nav bar */
@@ -28,7 +27,7 @@ header a {
   display: flex;
   margin-right: 10px;
   justify-content: space-between;
-  width: 500px;
+  width: 60%;
   list-style: none;
   padding-top: 10px;
   align-items: center;
@@ -42,15 +41,9 @@ ul a:hover {
   background-color: dimgray;
 }
 
-@media only screen and (max-width: 1500px){
-  .navbar {
-    width: 400px;
-  }
-}  
-
 .logo {
   font-size: 2.5rem;
-  margin-left: 25px;
+  margin-left: 10%;
 }
 
 .colorchange {
@@ -69,3 +62,34 @@ ul a:hover {
 .button:hover {
   background-color: dodgerblue;
 }
+
+@media only screen and (max-width: 800px){
+  ul a {
+    font-size: 0.8rem;
+  }
+  .logo {
+    font-size: 1.5rem;
+    margin-left: 0;
+  }
+  header {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    /* padding: 15px 10%;
+    background-color: #0f0c27;
+    color: white;
+    border-bottom: solid 0.5px grey;
+    position: fixed; */
+    flex-direction: column;
+  }
+  .navbar {
+    display: flex;
+    margin-right: 0;
+    justify-content: space-between;
+    width: 100%;
+    list-style: none;
+    padding-top: 10px;
+    align-items: center;
+  }
+}  

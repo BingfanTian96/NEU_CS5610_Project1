@@ -4,7 +4,7 @@
     color: white;
     padding: 0 10%;
     height: auto;
-    padding:10%;
+    padding:20%;
 }
 
 .heading-name {
@@ -12,7 +12,7 @@
 }
 
 .aboutme-section {
-    /* display: flex; */
+    display: flex; 
     margin-top: 2%;
     text-align: left;
     align-items: center;
@@ -30,7 +30,7 @@
 
 .img-section img {
     height: 50%;
-    width: 50%;
+    width: 100%;
 }
 
 .aboutme-text {

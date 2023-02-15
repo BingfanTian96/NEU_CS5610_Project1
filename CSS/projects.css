@@ -10,7 +10,7 @@
     ;
     grid-template-rows: 1fr 1fr 1fr 1fr;
     grid-gap: 3%;
-    padding:10% 10%;
+    padding:20% 10%;
     width: 100%;
     height: auto;
     background-color: #0f0c27;
@@ -101,3 +101,12 @@
 .CV_button:hover {
     background-color: dodgerblue;
 }
+
+@media only screen and (max-width: 800px){
+    .grid_container {
+        padding:25% 10%;
+    }
+    .detail_section {
+        margin-left: 0;
+    }
+} 
