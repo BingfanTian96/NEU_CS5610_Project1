@@ -7,17 +7,17 @@ p {
     background-color: #0f0c27;
     display: flex;
     justify-content: space-between;
-    padding:15% 10% 10%;
+    padding:15% 10% 0;
     height: 100vh;
 }
 
 .social {
-    height: 40%;
+    height: 30%;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
     margin-top: 10%;
-    margin-right: 10%;
+    margin-right: 5%;
 }
 
 .social a i {
@@ -29,7 +29,7 @@ p {
 .home-text {
     color: white;
     margin-top: 10%;
-    margin-right: 10%;
+    margin-right: 20%;
 }
 
 .heading-name {
@@ -45,6 +45,8 @@ p {
     height: 400px;
     width: 550px;
     border-radius: 20px;
+    margin-top: 10%;
+    
 }
 
 /* homepage-about me part */
@@ -52,8 +54,9 @@ p {
     text-align: center;
     background-color: #0f0c27;
     color: white;
-    padding: 10% 10% 0px;
+    padding: 0 10%;
     height: auto;
+    padding-bottom: 10%;
 }
 
 .heading-name {
@@ -86,7 +89,7 @@ p {
     margin-left: 10%;
 }
 
-.icons-div {
+.info-div {
     display: flex;
     flex-direction: column;
     justify-content: space-around;
@@ -98,12 +101,9 @@ p {
     font-size: 2.5rem;
 }
 
-/* footer */
-
-.myfooter{
-    background-color: #033a80;
-    color: white;
-    height: 5vh;
-    justify-content: center;
-    align-items: center;
+.education-detail {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 2%;
 }
+

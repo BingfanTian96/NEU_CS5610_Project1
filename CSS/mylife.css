@@ -1,0 +1,56 @@
+.aboutme {
+    text-align: center;
+    background-color: #0f0c27;
+    color: white;
+    padding: 0 10%;
+    height: auto;
+    padding:15% 10% 10%;
+}
+
+.heading-name {
+    font-size: 2.5rem;
+}
+
+.aboutme-section {
+    display: flex;
+    margin-top: 2%;
+    text-align: left;
+}
+
+.my-img {
+    border-radius: 20px;
+}
+
+.img-section {
+    margin-left: 5%;
+    height: 550px;
+    width: 400px;
+}
+
+.img-section img {
+    height: 550px;
+    width: 400px;
+}
+
+.aboutme-text {
+    width: 60%;
+    margin-left: 10%;
+}
+
+.info-div {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    margin-top: 2%;
+    margin-bottom: 2%;
+}
+
+.aboutme-heading {
+    font-size: 2.5rem;
+}
+
+.education-detail {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 2%;
+}

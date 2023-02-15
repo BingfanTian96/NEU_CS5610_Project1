@@ -87,3 +87,17 @@
 .github_link:hover {
     background-color: dodgerblue;
 }
+
+.CV_button{
+    margin-left: 10%;
+    color: white;
+    text-decoration: none;
+    background-color: #033a80;
+    padding: 3%;
+    border-radius: 10px;
+    border: none;
+}
+
+.CV_button:hover {
+    background-color: dodgerblue;
+}
