@@ -1,4 +1,9 @@
 /* Contact page */
+.page-tag {
+  background-color: cornflowerblue;
+  font-size: 1.8rem;
+}
+
 .contact-form {
   padding:200px 10% 50px;
   background-color: #0f0c27;

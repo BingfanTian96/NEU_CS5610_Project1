@@ -3,6 +3,11 @@ p {
     margin: 10px;
 }
 
+.page-tag {
+    background-color: cornflowerblue;
+    font-size: 1.8rem;
+}
+
 .home{
     background-color: #0f0c27;
     display: flex;

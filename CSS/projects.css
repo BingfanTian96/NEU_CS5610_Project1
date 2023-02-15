@@ -1,4 +1,8 @@
 /* project page */
+.page-tag {
+    background-color: cornflowerblue;
+    font-size: 1.8rem;
+}
 
 .grid_container {
     display: grid;
