@@ -70,12 +70,14 @@ p {
     padding: 0 10%;
     height: auto;
     padding-bottom: 10%;
+    padding-top: 10%;
 }
 
 .aboutme-section {
     display: flex;
     margin-top: 2%;
     text-align: left;
+    justify-content: space-evenly;
 }
 
 .my-img {
@@ -85,7 +87,7 @@ p {
 .img-section {
     margin-left: 5%;
     height: 100%;
-    width: 100%;
+    width: 50%;
 }
 
 .img-section img {
@@ -137,6 +139,7 @@ p {
     }
     .img-section {
         margin-left: 0;
+        width: 100%;
     }
     .aboutme-heading {
         font-size: 1.5rem;
